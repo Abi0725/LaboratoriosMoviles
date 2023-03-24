@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="weigth_text_view">Weigth</string>
+    <string name="text_kg">kg</string>
+    <string name="text_hint">70</string>
+    <string name="text_height">Height</string>
+    <string name="height_hint_text">180</string>
+    <string name="height_text_cm">cm</string>
+</resources>
