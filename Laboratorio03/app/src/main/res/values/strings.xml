@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoneyAmount</string>
+    <string name="text_tittle">Cantidad de dinero</string>
+    <string name="text_five_cents">$0.05</string>
+    <string name="text_ten_cents">$0.10</string>
+    <string name="text_quarter">$0.25</string>
+    <string name="text_one_dollar">$1.00</string>
+</resources>

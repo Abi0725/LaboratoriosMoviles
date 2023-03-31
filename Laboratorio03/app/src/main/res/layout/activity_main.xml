@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tittle_text_view"
+        style="@style/TextAppearance.Material3.HeadlineMedium"
+        android:layout_width="241dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/small_gap"
+        android:layout_marginTop="@dimen/big_gap"
+        android:layout_marginEnd="@dimen/small_gap"
+        android:text="@string/text_tittle"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/total_amount_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_gap"
+        android:text="0"
+        android:textSize="@dimen/tittle_size"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tittle_text_view"
+        app:layout_constraintStart_toStartOf="@+id/tittle_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/tittle_text_view"/>
+
+    <ImageButton
+        android:id="@+id/add_five_cents_button"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="@dimen/small_gap"
+        android:layout_marginTop="@dimen/medium_gap"
+        android:background="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/add_ten_cents_button"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_amount_text_view"
+        app:srcCompat="@drawable/five_cents" />
+
+    <ImageButton
+        android:id="@+id/add_ten_cents_button"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="@dimen/small_gap"
+        android:layout_marginTop="@dimen/medium_gap"
+        android:layout_marginEnd="@dimen/small_gap"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/add_five_cents_button"
+        app:layout_constraintTop_toBottomOf="@+id/total_amount_text_view"
+        app:srcCompat="@drawable/ten_cents" />
+
+    <TextView
+        android:id="@+id/five_cents_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_gap"
+        android:text="@string/text_five_cents"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="@+id/add_five_cents_button"
+        app:layout_constraintStart_toStartOf="@+id/add_five_cents_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_five_cents_button" />
+
+    <TextView
+        android:id="@+id/ten_cents_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_gap"
+        android:text="@string/text_ten_cents"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="@+id/add_ten_cents_button"
+        app:layout_constraintStart_toStartOf="@+id/add_ten_cents_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_ten_cents_button" />
+
+    <ImageButton
+        android:id="@+id/add_quarter_button"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="@dimen/small_gap"
+        android:layout_marginTop="@dimen/medium_gap"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/add_one_dollar_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/five_cents_text_view"
+        app:srcCompat="@drawable/quarter" />
+
+    <ImageButton
+        android:id="@+id/add_one_dollar_button"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="@dimen/medium_gap"
+        android:layout_marginEnd="@dimen/small_gap"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/add_quarter_button"
+        app:layout_constraintTop_toBottomOf="@+id/ten_cents_text_view"
+        app:srcCompat="@drawable/one_dollar" />
+
+    <TextView
+        android:id="@+id/quarter_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_gap"
+        android:text="@string/text_quarter"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="@+id/add_quarter_button"
+        app:layout_constraintStart_toStartOf="@+id/add_quarter_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_quarter_button" />
+
+    <TextView
+        android:id="@+id/one_dollar_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_gap"
+        android:text="@string/text_one_dollar"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="@+id/add_one_dollar_button"
+        app:layout_constraintStart_toStartOf="@+id/add_one_dollar_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_one_dollar_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
