@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="name_value">Nombre</string>
+    <string name="email_value">Correo electrónico</string>
+    <string name="number_value">Numero de telefono</string>
+    <string name="save_value">Guardar</string>
+    <string name="tittle_value">Rellena la siguiente informacion</string>
+</resources>

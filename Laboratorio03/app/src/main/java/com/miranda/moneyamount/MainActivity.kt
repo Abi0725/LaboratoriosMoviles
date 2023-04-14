@@ -24,11 +24,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun bind() {
-        moneyAmount = findViewById(R.id.tittle_text_view)
-        fiveCentsCoin = findViewById(R.id.five_cents_text_view)
-        tenCentsCoin = findViewById(R.id.ten_cents_text_view)
-        quarterCoin = findViewById(R.id.quarter_text_view)
-        dollarCoin = findViewById(R.id.one_dollar_text_view)
+        moneyAmount = findViewById(R.id.total_amount_text_view)
+        fiveCentsCoin = findViewById(R.id.add_five_cents_button)
+        tenCentsCoin = findViewById(R.id.add_ten_cents_button)
+        quarterCoin = findViewById(R.id.add_quarter_button)
+        dollarCoin = findViewById(R.id.add_one_dollar_button)
     }
 
     private fun setClickListeners() {
