@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Laboratorio05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="press_add_movie_text">Presionar para añadir una pelicula nueva</string>
+    <string name="tittle_movie_text">Star Wars Episodio 3: la venganza de los Sith</string>
+    <string name="movie_description_text">Años después de empezar las Guerras Clon, los Caballeros Jedi dirigen un gran ejército clon en una guerra contra los separatistas. Cuando los siniestros Sith revelan un plan milenario para gobernar la galaxia, la República se derrumba y de sus cenizas surge el Imperio Galáctico. El héroe Jedi Anakin Skywalker es atraído hacia el lado oscuro de la Fuerza para convertirse en el aprendiz del Emperador, Darth Vader. Los Jedi son diezmados y Obi-Wan Kenobi y el maestro Jedi Yoda deberán esconderse.</string>
+    <string name="category_text">Ciencia Ficcion</string>
+    <string name="movie_calification_text">9.8</string>
+    <string name="new_movie_text">New Movie</string>
+    <string name="movie_name_text">Name</string>
+    <string name="insert_category_text">Category</string>
+    <string name="insert_description_text">Description</string>
+    <string name="insert_calification_text">Calification</string>
+    <string name="submit_text">SUBMIT</string>
+</resources>

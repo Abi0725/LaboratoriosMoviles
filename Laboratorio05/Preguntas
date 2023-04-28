@@ -1,0 +1,7 @@
+1. ¿En qué consiste el patrón de diseño Repository?
+
+Se encarga de separar la lógica de negocios y la forma en la que se acceden a los datos. Se guardan en un paquete llamado repositories, y desde allí se accede a diferentes tipos de datos.
+
+2. ¿Qué es el ViewModel?
+
+Es como un intermediario entre los datos y la interfaz de usuario. En él se pueden representar los datos y la funcionalidad para poder mostrarla en la interfaz del usuario.
