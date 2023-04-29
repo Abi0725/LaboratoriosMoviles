@@ -13,4 +13,6 @@
     <string name="insert_description_text">Description</string>
     <string name="insert_calification_text">Calification</string>
     <string name="submit_text">SUBMIT</string>
+    <string name="tittle_harry_potter">Harry Potter y la piedra filosofal</string>
+    <string name="calification_harrypotter_text">9.5</string>
 </resources>

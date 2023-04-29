@@ -1,4 +1,7 @@
 package com.miranda.laboratorio05.ui.data
 
-    class DummyData {
-}
+import com.miranda.laboratorio05.ui.data.models.Movie
+
+var moviesDatabse =  mutableListOf(
+    Movie("Suzume", "Animada", "Pequena descripcion", "califica")
+)
