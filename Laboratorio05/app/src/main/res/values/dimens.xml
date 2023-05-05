@@ -3,4 +3,10 @@
     <dimen name="small_gap">8dp</dimen>
     <dimen name="big_gap">32dp</dimen>
     <dimen name="medium_gap">16dp</dimen>
+    <dimen name="extraLargeTextGap">32sp</dimen>
+    <dimen name="largeTextGap">24sp</dimen>
+    <dimen name="mediumTextGap">20sp</dimen>
+    <dimen name="extraLargeGap">300dp</dimen>
+    <dimen name="noGap">0dp</dimen>
+    <dimen name="LargeGap">120dp</dimen>
 </resources>

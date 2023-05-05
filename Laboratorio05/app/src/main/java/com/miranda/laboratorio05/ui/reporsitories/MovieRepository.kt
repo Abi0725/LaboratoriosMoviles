@@ -6,4 +6,8 @@ class MovieRepository(private val movies: MutableList<Movie>) {
 
     fun getMovies() = movies
 
+    // add a new movie to the list of movies dummyData.kt
+    fun addMovies(movie: Movie) = movies.add(movie)
+
+
 }
