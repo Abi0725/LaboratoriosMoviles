@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.miranda.laboratorio05.R
 import com.miranda.laboratorio05.databinding.FragmentBillboardBinding
@@ -39,6 +40,7 @@ class BillboardFragment : Fragment() {
         btnCreateNewMovie = view.findViewById(R.id.btnNavCreateNewMovie)
         starWarsCv = view.findViewById(R.id.starWarsCardView)
         harryPotterCv = view.findViewById(R.id.harryPotterCardView)
+
 
         starWarsCv.setOnClickListener {
             it.findNavController().navigate(R.id.action_billboardFragment_to_movieFragment)

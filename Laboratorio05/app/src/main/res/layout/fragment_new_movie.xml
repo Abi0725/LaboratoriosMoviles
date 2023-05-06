@@ -52,8 +52,11 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/name_edit_text"
+                    android:text="@={viewmodel.name}"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/medium_gap"
+                    android:padding="@dimen/medium_gap"
                     android:background="@color/cardLayout"
                     android:textColor="@color/white" />
 
@@ -74,8 +77,11 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/category_edit_text"
+                    android:text="@={viewmodel.category}"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/medium_gap"
+                    android:padding="@dimen/medium_gap"
                     android:textColor="@color/white"
                     android:background="@color/cardLayout" />
 
@@ -96,9 +102,12 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/description_edit_text"
+                    android:text="@={viewmodel.description}"
                     android:textColor="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/medium_gap"
+                    android:padding="@dimen/medium_gap"
                     android:background="@color/cardLayout" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -108,7 +117,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/medium_gap"
-                android:hint="@string/qualificationHint"
+                android:hint="@string/insert_calification_text"
                 android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:hintTextColor="@color/white"
@@ -118,10 +127,13 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/qualification_edit_text"
+                    android:text="@={viewmodel.qualification}"
                     android:layout_width="match_parent"
-                    android:textColor="@color/white"
                     android:layout_height="wrap_content"
-                    android:background="@color/cardLayout" />
+                    android:layout_margin="@dimen/medium_gap"
+                    android:padding="@dimen/medium_gap"
+                    android:background="@color/cardLayout"
+                    android:textColor="@color/white" />
 
             </com.google.android.material.textfield.TextInputLayout>
 

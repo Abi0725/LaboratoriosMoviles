@@ -43,16 +43,17 @@ class NewMovieFragment : Fragment() {
     private fun observeStatus(){
         movieViewModel.status.observe(viewLifecycleOwner){status ->
             when {
-                status.equals(MovieViewModel.WRONG_INFORMATION) ->{
-                    Log.d(APP_TAG, status)
-                    movieViewModel.clearStatus()
-                }
                 status.equals(MovieViewModel.MOVIE_CREATED) -> {
                     Log.d(APP_TAG, status)
                     Log.d(APP_TAG, movieViewModel.getMovies().toString())
 
                     movieViewModel.clearStatus()
                     findNavController().popBackStack()
+                }
+
+                status.equals(MovieViewModel.WRONG_INFORMATION) ->{
+                    Log.d(APP_TAG, status)
+                    movieViewModel.clearStatus()
                 }
             }
         }
